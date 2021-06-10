@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+
+{% block content %}
+<form action="/fun/reg" method="post">
+    <input type="text" name="login">
+    <input type="password" name="password">
+
+    <input type="submit" value="Регистрация">
+</form>
+{% endblock %}
